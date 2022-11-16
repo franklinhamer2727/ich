@@ -1,10 +1,13 @@
 //#configuracion del servidor
 const express= require('express');
 const app = express()
+var LibrosController = require('./routes/libros')
 
-app.get("/api",(req,res) =>{
-    res.json({"users":["UserOne","UserTwo","UserThree","UserFour"]})
-})
+//Se pasa todos los libros a esta vista
+app.get("/api",LibrosController);
+
+
+
 app.listen(5000,()=>{
     console.log("server started on port 5000");
 })
