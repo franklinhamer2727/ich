@@ -1,29 +1,23 @@
-import React,{useEffect,useState}from 'react'
+import "./App.css"
+import HomePage from "./home/HomePage"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import SinglePage from "./components/watch/SinglePage"
+import Header from "./components/header/Header"
+import Footer from "./components/footer/Footer"
 
-
-function App(){
-  const[backendData, setBackendData] = useState([{}]);
-  useEffect(()=>{
-    fetch("/api").then(
-      response =>response.json()
-    ).then(
-      data=>{
-        setBackendData(data)
-      }
-    )
-  },[])
+function App() {
   return (
-    <div>
-      {(typeof backendData.users === 'undefined')?(
-        <p>Loading...</p>
-
-      ):(
-        backendData.users.map((user,i)=>(
-          <p key ={i}>{user}</p>
-        ))
-      )}
-
-    </div>
+    <>
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route path='/singlepage/:id' component={SinglePage} exact />
+        </Switch>
+        <Footer />
+      </Router>
+    </>
   )
 }
-export default App;
+
+export default App
