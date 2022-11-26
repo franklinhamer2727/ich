@@ -9,7 +9,7 @@ const Homes = () => {
   return (
     <>
       <section className='home'>
-        {/* <Home items={items} /> */}
+        <Home items={items} />
       </section>
       <div className='mragin'></div>
     </>

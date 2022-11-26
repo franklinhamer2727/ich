@@ -44,13 +44,13 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
           </div>
           <div className='palyButton row'>
             <Link to={`/singlepage/${id}`}>
-              <button>
+              {/* <button>
                 <div className='img'>
                   <img src='./images/play-button.png' alt='' />
                   <img src='./images/play.png' className='change' />
                 </div>
                 WATCH TRAILER
-              </button>
+              </button> */}
             </Link>
           </div>
         </div>

@@ -46,3 +46,47 @@ video {
 .soical img {
   margin-left: 10px;
 }
+
+/* Modificando el contenido del css */
+
+
+.cadena{
+  margin-top: 1rem;
+  margin: 10%;
+
+}
+.fragmento{
+  display: flex;
+  margin-bottom: 5px;
+  
+}
+
+.imagen{
+  width: 30%;
+
+
+}
+.imagen img{
+  width: 100%;
+  
+}
+
+.resumen{
+  width: 70%;
+
+}
+.resumen .table{
+  width: 100%;
+  margin-left: 5%;
+}
+
+.btn.btn-ol-red{
+  background-color: #eb1808;
+  border-color: #eb1808;
+}
+a.btn{
+  border-radius: 0;
+  font-family: Open Sans,Segoe UI,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  overflow: hidden;
+  position: relative;
+}
