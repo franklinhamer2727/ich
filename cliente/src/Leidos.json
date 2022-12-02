@@ -1,0 +1,537 @@
+[
+    {
+        "ID": "1547",
+        "title": "Informaci\u00f3n B\u00e1sica de SCRUM (The Scrum Primer)",
+        "author": "Varios",
+        "content": "Scrum es un marco de trabajo iterativo e incremental para el desarrollo de proyectos, productos y aplicaciones. Estructura el desarrollo en ciclos de trabajo llamados Sprints. Son iteraciones de 1 a 4 semanas, y se van sucediendo una detrás de otra. Los Sprints son de duración fija terminan en una fecha específica aunque no se haya terminado el trabajo, y nunca se alargan. Se limitan en tiempo. Al comienzo de cada Sprint, un equipo multi-funcional selecciona los elementos (requisitos del cliente) de una lista priorizada. Se comprometen a terminar los elementos al final del Sprint. Durante el Sprint no se pueden cambiar los elementos elegidos. \n\nTodos los días el equipo se reúne brevemente para informar del progreso, y actualizan unas gráficas sencillas que les orientan sobre el trabajo restante. Al final del Sprint, el equipo revisa el Sprint con los interesados en el proyecto, y les enseña lo que han construido. La gente obtiene comentarios y observaciones que se puede incorporar al siguiente Sprint. Scrum pone el énfasis en productos que funcionen al final del Sprint que realmente estén “hechos”; en el caso del software significa que el código esté integrado, completamente probado y potencialmente para entregar.",
+        "content_short": "Scrum es un marco de trabajo iterativo e incremental para el desarrollo de proyectos, productos y aplicaciones. Estructura el desarrollo en ciclos de trabajo llamados Sprints. Son iteraciones de 1 ...",
+        "publisher": "Autoedici\u00f3n",
+        "publisher_date": "2009",
+        "pages": "20",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/informacion-basica-de-scrum-the-scrum-primer\/",
+        "url_download": "https:\/\/openlibra.com\/book\/informacion-basica-de-scrum-the-scrum-primer",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/08\/Informacion_Basica_Scrum_OpenLibra-350x459.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/08\/Informacion_Basica_Scrum_OpenLibra-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 386,
+                "name": "Scrum",
+                "nicename": "agilismo_scrum"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 495,
+                "name": "agilismo",
+                "nicename": "agilismo"
+            },
+            {
+                "tag_id": 384,
+                "name": "scrum",
+                "nicename": "scrum"
+            }
+        ]
+    },
+    {
+        "ID": "2295",
+        "title": "Dise\u00f1o de una Metodolog\u00eda \u00c1gil de Desarrollo de Software",
+        "author": "Schenone Marcelo Hern\u00e1n",
+        "content": "Esta tésis tiene como propósito la construcción de una Metodología Ágil de Desarrollo de Software la cual utiliza UML como notación. Si bien podrá ser empleada en proyectos de distinto tamaño y complejidad, su aplicación tendrá como objetivo proyectos de pequeña escala y riesgo limitado. También será independiente del lenguaje o la arquitectura utilizada, así como del tipo de software que se está construyendo. \r\n \r\nPara desarrollar esta metodología se comenzará por un relevamiento de las metodologías y notaciones actualmente empleadas (Rational Unified Process, UML, SCRUM, OPEN, Extreme Programming, etc), un posterior refinamiento de las mismas y el desarrollo paulatino de un proceso que incorpore las mejores y más avanzadas prácticas existentes en cada etapa del desarrollo. \r\n \r\nFinalmente, se describe la realización de dos casos prácticos resueltos con la metodología propuesta. El primer caso práctico estará basado en un sistema de integración de servicios para ONGs, y el segundo en un sistema de administración de recursos de hardware y software. ",
+        "content_short": "Esta tésis tiene como propósito la construcción de una Metodología Ágil de Desarrollo de Software la cual utiliza UML como notación. Si bien podrá ser empleada en proyectos de distinto ...",
+        "publisher": "Fiuba",
+        "publisher_date": "2004",
+        "pages": "199",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/diseno-de-una-metodologia-agil-de-desarrollo-de-software\/",
+        "url_download": "https:\/\/openlibra.com\/book\/diseno-de-una-metodologia-agil-de-desarrollo-de-software",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2012\/01\/diseno-metodologia-agil-de-desarrollo-software-OpenLibra-350x459.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2012\/01\/diseno-metodologia-agil-de-desarrollo-software-OpenLibra-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 220,
+                "name": "Programaci\u00f3n",
+                "nicename": "libros_programacion"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 495,
+                "name": "agilismo",
+                "nicename": "agilismo"
+            },
+            {
+                "tag_id": 1074,
+                "name": "metodolog\u00edas",
+                "nicename": "metodologias"
+            },
+            {
+                "tag_id": 384,
+                "name": "scrum",
+                "nicename": "scrum"
+            },
+            {
+                "tag_id": 312,
+                "name": "UML",
+                "nicename": "uml"
+            },
+            {
+                "tag_id": 105,
+                "name": "XP",
+                "nicename": "xp"
+            }
+        ]
+    },
+    {
+        "ID": "589",
+        "title": "Dise\u00f1o \u00c1gil con TDD",
+        "author": "Carlos Bl\u00e9 Jurados y autores",
+        "content": "¿Dedicas una gran parte de tu tiempo de desarrollo a resolver incidencias de aplicaciones en producción?, ¿te enfrentas a sesiones de depuración interminables para encontrar la raíz de un problema?, ¿te extenúa descubrir innumerables fallos cada vez que introduces nuevas características a funcionalidades ya existentes?. Si respondes afirmativamente estas cuestiones y quieres promover el cambio, en este libro encontrarás la clave.\r\n\r\nTDD es una técnica de desarrollo que se lleva aplicando durante años con gran éxito en lugares como EEUU y Reino Unido, sin embargo, la ausencia de información en español sobre la misma ha supuesto un freno para su difusión en los países hispano-parlantes. El objetivo de este libro es poner solución a este dilema y ofrecer una referencia completa, tanto teórica como práctica, que permita al lector iniciarse en su comprensión y aplicación.\r\n\r\nA estas alturas sabemos que aprender nuevos lenguajes o frameworks incrementa nuestra productividad a corto plazo, pero los problemas más graves a los que nos enfrentamos siguen sin solución. TDD propone una nueva forma de afrontar los desarrollos atacando estas dificultades de frente y permitiendo entregar software más robusto y fiable. Con TDD, nuestro rendimiento a largo plazo sí se ve beneficiado, no olvidemos que uno de los factores con más influencia en la productividad de hoy es la calidad del código escrito ayer.\r\n\r\nDiseño Ágil con TDD nos enseñará a:\r\n<ul>\r\n<li>Escribir tests que aumenten la fiabilidad del código.<\/li>\r\n<li>Escribir tests de aceptación que nos ayudarán a centrarnos, específicamente, en el problema a resolver.<\/li>\r\n<li>Mejorar nuestros diseños para hacerlos más simples y flexibles.<\/li>\r\n<li>Escribir código fácil de mantener. Con TDD, los test son documentación viva y actualizada de nuestro código, la mejor documentación posible.<\/li>\r\n<li>Encajar TDD dentro del paradigma ágil y relacionarlo con otras técnicas como la integración continua.<\/li>\r\n<\/ul>",
+        "content_short": "¿Dedicas una gran parte de tu tiempo de desarrollo a resolver incidencias de aplicaciones en producción?, ¿te enfrentas a sesiones de depuración interminables para encontrar la raíz de un problema?, ...",
+        "publisher": "www.iExpertos.com",
+        "publisher_date": "2010",
+        "pages": "309",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/diseno-agil-con-tdd\/",
+        "url_download": "https:\/\/openlibra.com\/book\/diseno-agil-con-tdd",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/04\/disenoAgilConTDD.jpg",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/04\/disenoAgilConTDD-110x153.jpg",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 222,
+                "name": "Java",
+                "nicename": "programacion_java"
+            },
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 220,
+                "name": "Programaci\u00f3n",
+                "nicename": "libros_programacion"
+            },
+            {
+                "category_id": 219,
+                "name": "TDD",
+                "nicename": "tdd_metodologias_agiles"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 290,
+                "name": "agil",
+                "nicename": "agil"
+            },
+            {
+                "tag_id": 97,
+                "name": "java",
+                "nicename": "java"
+            },
+            {
+                "tag_id": 103,
+                "name": "tdd",
+                "nicename": "tdd"
+            },
+            {
+                "tag_id": 104,
+                "name": "tests",
+                "nicename": "tests"
+            }
+        ]
+    },
+    {
+        "ID": "886",
+        "title": "Foundations of Programming: Building Better Software",
+        "author": "Karl Seguin",
+        "content": "Este libro se adapta perfectamente a aquellos desarrolladores que siente curiosidad por saber qué es ALT.NET, las herramientas utilizadas por los desarrolladores o simplemente para quienes busquen una base sólida para el desarrollo del software de hoy en día.\r\n\r\nEl primer capítulo se explica en qué cosisten ALT.NET es decir, las metas y el futuro de este término para aclarar cualquier confusión con respecto al mismo.\r\n\r\nLos lectores aprenden las definiciones de muchas palabras traídas directamente de su argot como:\r\n<ul>\r\n\t<li>DRY (Don't Repeat Yourself)<\/li>\r\n\t<li>Explicitud y Cohesión<\/li>\r\n\t<li>Acoplamiento<\/li>\r\n\t<li>Pruebas unitarias y de integración continua.<\/li>\r\n<\/ul>\r\n<strong>Organización<\/strong>\r\n\r\nEn cada capítulo se realiza un profundo estudio de cada uno de los temas candentes en la ingeniería del software actual:\r\n<ul>\r\n\t<li>Diseño Dirigido por Dominios (DDD)<\/li>\r\n\t<li>Persistencia<\/li>\r\n\t<li>Inyecciones de dependencias<\/li>\r\n\t<li>Test Unitarios<\/li>\r\n\t<li>Mapeadores de objetos relacionales<\/li>\r\n\t<li>etc...<\/li>\r\n<\/ul>\r\nEn definitiva, un excelente trabajo para comprender las prácticas en la ingeniería del software a día de hoy.\r\n",
+        "content_short": "Este libro se adapta perfectamente a aquellos desarrolladores que siente curiosidad por saber qué es ALT.NET, las herramientas utilizadas por los desarrolladores o simplemente para quienes busquen una base sólida ...",
+        "publisher": "www.codebetter.com",
+        "publisher_date": "2009",
+        "pages": "79",
+        "language": "english",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/foundations-of-programming\/",
+        "url_download": "https:\/\/openlibra.com\/book\/foundations-of-programming",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/05\/FoundationsOfProgramming-350x453.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/05\/FoundationsOfProgramming-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 224,
+                "name": "Otros Lenguajes",
+                "nicename": "programacion_otros_lenguajes"
+            },
+            {
+                "category_id": 220,
+                "name": "Programaci\u00f3n",
+                "nicename": "libros_programacion"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 299,
+                "name": "ALT.NET",
+                "nicename": "alt-net"
+            },
+            {
+                "tag_id": 300,
+                "name": "DDD",
+                "nicename": "ddd"
+            },
+            {
+                "tag_id": 338,
+                "name": "design patterns",
+                "nicename": "design_patterns"
+            },
+            {
+                "tag_id": 249,
+                "name": "patrones de dise\u00f1o",
+                "nicename": "patrones_de_diseno"
+            }
+        ]
+    },
+    {
+        "ID": "755",
+        "title": "Gu\u00eda de Arquitectura N-Capas DDD .NET 4.0",
+        "author": "Varios",
+        "content": "DDD no consiste solo en patrones y arquitecturas recomendadas, como es nuestra Guía de Arquitectura y aplicación ejemplo. DDD es mucho más que eso,consiste también en una forma de afrontar los proyectos, forma de trabajar el equipo de desarrollo y su relación directa con los expertos del dominio mediante el ‘lenguaje ubicuo’. Esta forma de trabajar y diseñar, fundamental para el ciclo de vida de una aplicación, es algo que no cubrimos en nuestra guía y aplicación ejemplo, pues nos hemos centrado solo en Arquitectura e implementación de patrones ‘estilo DDD’ con .NET 4.0 y tecnologías relacionadas. Pero eso es aproximadamente solo un 20% de DDD. Si realmente se quiere conocer y ‘hacer DDD’, recomendamos leer y aplicar los principios de trabajo que explica Eric Evans en su libro ‘Domain-Driven Design: Tackling Complexity in the Heart of Software’ y otros libros relativos al proceso de diseño y trabajo en equipo en DDD. Simplemente queremos resaltar que DDD es mucho más que ‘Arquitectura y Patrones de Diseño'.\r\n",
+        "content_short": "DDD no consiste solo en patrones y arquitecturas recomendadas, como es nuestra Guía de Arquitectura y aplicación ejemplo. DDD es mucho más que eso,consiste también en una forma de afrontar ...",
+        "publisher": "Krassis Press",
+        "publisher_date": "2011",
+        "pages": "534",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/guia-de-arquitectura-n-capas-ddd-net-4-0\/",
+        "url_download": "https:\/\/openlibra.com\/book\/guia-de-arquitectura-n-capas-ddd-net-4-0",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/05\/Diseno_NET.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/05\/Diseno_NET-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 224,
+                "name": "Otros Lenguajes",
+                "nicename": "programacion_otros_lenguajes"
+            },
+            {
+                "category_id": 225,
+                "name": "Patrones de dise\u00f1o",
+                "nicename": "programacion_patrones_de_diseno"
+            },
+            {
+                "category_id": 220,
+                "name": "Programaci\u00f3n",
+                "nicename": "libros_programacion"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 3000,
+                "name": ".NET",
+                "nicename": "net"
+            },
+            {
+                "tag_id": 300,
+                "name": "DDD",
+                "nicename": "ddd"
+            },
+            {
+                "tag_id": 338,
+                "name": "design patterns",
+                "nicename": "design_patterns"
+            },
+            {
+                "tag_id": 262,
+                "name": "Microsoft",
+                "nicename": "microsoft"
+            },
+            {
+                "tag_id": 249,
+                "name": "patrones de dise\u00f1o",
+                "nicename": "patrones_de_diseno"
+            }
+        ]
+    },
+    {
+        "ID": "610",
+        "title": "No Bugs!",
+        "author": "David Thielen",
+        "content": "Todos hemos estado ahí. Hemos terminado nuestra nueva aplicación; la hemos copiado y enviado al cliente. Y suena el teléfono...\r\n\r\nTodo comienza como una pregunta de soporte técnico. Pero el problema se intensifica y muy pronto se hace evidente: hay un error en el programa.\r\n\r\nY no se trata de algunos errores poco significativos que ese usuario puede evitar, sino que estamos ante un error grande y peliagudo que golpea directamente a cada usuario y, esencialmente, les impide usar el programa.\r\n\r\nNo importa cuántos clientes tenga, reemplazar el 100% de las copias de su programa es un gasto terrible. Y el costo no se limita únicamente a modificar el código y volverlo a enviar por el canal más apropiado. En realidad, con este contratiempo, nuestra reputación como desarrolladores se pone en entredicho.\r\n\r\nPero los bugs pueden significar algo más que un contratiempo en nuestro ritmo de trabajo... El programa más estándar del mundo puede ser utilizado en una unidad crítica de cuidados cardíacos en un hospital. Un error en ese tipo de software, por pequeño que pueda parecer, es comprometido. En el caso de una aplicación de mercado vertical, un fallo puede dar lugar una reporte incorrecto de tipo económico que puede derivar, en determinadas circunstancias, en un delito fiscal... Y así, sucesivamente...\r\n\r\nSi tiembla cada vez que suena el teléfono después de que libera un nuevo producto, este libro es para usted.\r\n",
+        "content_short": "Todos hemos estado ahí. Hemos terminado nuestra nueva aplicación; la hemos copiado y enviado al cliente. Y suena el teléfono...\r\n\r\nTodo comienza como una pregunta de soporte técnico. Pero el problema ...",
+        "publisher": "WindwardReports",
+        "publisher_date": "2009 ( Reedici\u00f3n )",
+        "pages": "214",
+        "language": "english",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/no-bugs\/",
+        "url_download": "https:\/\/openlibra.com\/book\/no-bugs",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/04\/NoBugs-350x431.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/04\/NoBugs-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 225,
+                "name": "Patrones de dise\u00f1o",
+                "nicename": "programacion_patrones_de_diseno"
+            },
+            {
+                "category_id": 220,
+                "name": "Programaci\u00f3n",
+                "nicename": "libros_programacion"
+            },
+            {
+                "category_id": 219,
+                "name": "TDD",
+                "nicename": "tdd_metodologias_agiles"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 337,
+                "name": "bugs",
+                "nicename": "bugs"
+            },
+            {
+                "tag_id": 103,
+                "name": "tdd",
+                "nicename": "tdd"
+            },
+            {
+                "tag_id": 104,
+                "name": "tests",
+                "nicename": "tests"
+            }
+        ]
+    },
+    {
+        "ID": "650",
+        "title": "The Agile Samurai",
+        "author": "Jonathan Rasmusson",
+        "content": "El libro se divide en 5 grandes bloques:\r\n\r\n- <strong>Introducing Agile:<\/strong> Aunque este bloque es introductorio y muchas personas ya lo conocerán, recomiendo la lectura del capítulo Meet Your Agile Team, que trata no solo de las personas que componen el equipo sino de las características que ha de tener el mismo para que un proyecto finalice de forma satisfactoria.\r\n\r\n- <strong>Agile Project Inception:<\/strong> Este es el bloque que más me ha interesado y la razón principal de que comprase el libro, básicamente se centra en como realizar un Agile Inception Deck y aunque no me iluminó más que la charla de @ecomba me pareció una lectura muy interesante. Creo que es una lectura interesante incluso para personas que no estén totalmente convencidas de las metodologías de desarrollo ágiles.\r\n\r\n- <strong>Agile Project Planning:<\/strong> En este bloque se habla de historias de usuarios, estimación y planificación. Si deseas conocer algo más sobre este tema es mejor leer el libro de Mike Cohn, Users stories applied, pero me ha parecido un resumen bastante bueno y entretenido. Muy recomendable si no tienes conocimientos previos de historias de usuarios.\r\n\r\n- <strong>Agile Project Execution:<\/strong> Como es lógico en la evolución lineal del libro a lo largo del proceso de desarrollo, ahora nos encontramos con la ejecución del proyecto, en general se habla sobre el proceso iterativo, las correcciones de predicciones temporales, la variabilidad del alcance del proyecto y de como o porque tomar unas decisiones u otras, durante la ejecución del mismo. Creo que no te arrepentirás de leerlo.\r\n\r\n- <strong>Creating Agile Software:<\/strong> Probablemente para mi esta ha sido la parte más aburrida porque como técnico es la que más domino (que es más bien poco, pero para aquellas personas más acostumbradas a un desarrollo clásico, este bloque les resumirá de forma bastante amena algunas de las principales prácticas de Extreme Programming, como por ejemplo TDD o Integración Continua.\r\n\r\n<strong>Conclusión<\/strong>\r\n\r\nUn libro ameno, interesante y que merece la pena leerse, sobretodo para aquellas personas más centradas en la parte técnica del negocio y que desean aprender algo más sobre el trato con el cliente o la gestión del proyecto, pero de una forma más ágil.\r\n\r\n(Comentario realizado por <a href=http:\/\/developerscookbook.blogspot.com\/2011\/04\/recomendaciones-literarias-agile.html>Yeray Darias Camacho<\/a>)\r\n",
+        "content_short": "El libro se divide en 5 grandes bloques:\r\n\r\n- <strong>Introducing Agile:<\/strong> Aunque este bloque es introductorio y muchas personas ya lo conocerán, recomiendo la lectura del capítulo Meet Your Agile Team, ...",
+        "publisher": "The Pragmatic Bookshelf",
+        "publisher_date": "2010",
+        "pages": "267",
+        "language": "english",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/the-agile-samurai\/",
+        "url_download": "https:\/\/openlibra.com\/book\/the-agile-samurai",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/04\/agile_samurai.jpg",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/04\/agile_samurai-110x153.jpg",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 217,
+                "name": "Marketing \/ Business",
+                "nicename": "marketing_y_business"
+            },
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 220,
+                "name": "Programaci\u00f3n",
+                "nicename": "libros_programacion"
+            },
+            {
+                "category_id": 219,
+                "name": "TDD",
+                "nicename": "tdd_metodologias_agiles"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 363,
+                "name": "desarrollo \u00e1gil",
+                "nicename": "desarrollo_agil"
+            },
+            {
+                "tag_id": 304,
+                "name": "marketing",
+                "nicename": "marketing"
+            },
+            {
+                "tag_id": 103,
+                "name": "tdd",
+                "nicename": "tdd"
+            }
+        ]
+    },
+    {
+        "ID": "1054",
+        "title": "ScrumManager: Gesti\u00f3n de proyectos",
+        "author": "Juan Palacio",
+        "content": "Scrum es un marco de trabajo para la gestión y desarrollo de software basada en un proceso iterativo e incremental utilizado comúnmente en entornos basados en el desarrollo ágil de software.\r\n\r\nAunque Scrum estaba enfocado a la gestión de procesos de desarrollo de software, puede ser utilizado en equipos de mantenimiento de software, o en una aproximación de gestión de programas: Scrum de Scrums.\r\n\r\nDesde la consideración sistémica de las organizaciones, el modelo ScrumManager clasifica el conocimiento que comprende la agilidad en tres áreas: proyecto, producto y management. \r\n \r\nEste manual es una guía de formación de las prácticas recomendadas para la primera de ellas: Gestión de proyectos. ",
+        "content_short": "Scrum es un marco de trabajo para la gestión y desarrollo de software basada en un proceso iterativo e incremental utilizado comúnmente en entornos basados en el desarrollo ágil de ...",
+        "publisher": "Autoedici\u00f3n",
+        "publisher_date": "2008",
+        "pages": "95",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/scrummanager-gestion-de-proyectos\/",
+        "url_download": "https:\/\/openlibra.com\/book\/scrummanager-gestion-de-proyectos",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/06\/gestion_proyectos_ScrumManager-325x461.jpg",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/06\/gestion_proyectos_ScrumManager-110x153.jpg",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 386,
+                "name": "Scrum",
+                "nicename": "agilismo_scrum"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 363,
+                "name": "desarrollo \u00e1gil",
+                "nicename": "desarrollo_agil"
+            },
+            {
+                "tag_id": 384,
+                "name": "scrum",
+                "nicename": "scrum"
+            },
+            {
+                "tag_id": 385,
+                "name": "scrumManager",
+                "nicename": "scrummanager"
+            }
+        ]
+    },
+    {
+        "ID": "1056",
+        "title": "Flexibilidad con Scrum: Principios de dise\u00f1o e implantaci\u00f3n de campos de Scrum",
+        "author": "Juan Palacio",
+        "content": "El modelo de procesos Scrum para desarrollo de software es muy simple; tanto que seguramente llamarlo “modelo de procesos” sea un exceso, porque en realidad es un conjunto de buenas prácticas de trabajo, que han demostrado en muchos proyectos la capacidad para ofrecer valor al producto final y agilidad en el desarrollo. \r\n\r\nY lo cierto es que implantar Scrum en la empresa no es difícil, pero habría que tener en cuenta que una cosa es mudar la forma y otra más compleja, hacer lo mismo con el fondo. Una cosa es adoptar prácticas ágiles y otra hacer una empresa ágil; pero, ¿porqué agilidad, y no procesos?\r\n\r\nY por aquí va la razón de ser de este libro, y la de empezar a hablar de Scrum sin mencionar siquiera, si es mejor la agilidad o los procesos; que no es por pasar de puntillas sobre el tema, presuponiendo que quien toma un libro con el título “Flexibilidad con Scrum” es un convicto de la agilidad, a quien ya sobran las razones de adoctrinamiento; sino porque ésta es precisamente una de las razones del libro: el sinsentido de la dualidad: “o eres de procesos o eres de agilidad”. ",
+        "content_short": "El modelo de procesos Scrum para desarrollo de software es muy simple; tanto que seguramente llamarlo “modelo de procesos” sea un exceso, porque en realidad es un conjunto de buenas ...",
+        "publisher": "Autoedici\u00f3n",
+        "publisher_date": "2008",
+        "pages": "192",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/flexibilidad-con-scrum\/",
+        "url_download": "https:\/\/openlibra.com\/book\/flexibilidad-con-scrum",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/06\/Flexibilidad_con_Scrum-310x461.jpg",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/06\/Flexibilidad_con_Scrum-110x153.jpg",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 386,
+                "name": "Scrum",
+                "nicename": "agilismo_scrum"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 363,
+                "name": "desarrollo \u00e1gil",
+                "nicename": "desarrollo_agil"
+            },
+            {
+                "tag_id": 384,
+                "name": "scrum",
+                "nicename": "scrum"
+            },
+            {
+                "tag_id": 385,
+                "name": "scrumManager",
+                "nicename": "scrummanager"
+            }
+        ]
+    },
+    {
+        "ID": "1100",
+        "title": "31 Days of Refactoring",
+        "author": "Sean Chambers & Simone Chiaretta",
+        "content": "La refactorización es una parte integral en la mejora continua de un código mientras çeste se mueve a través del tiempo.\r\n\r\nSin refactorización se acumula la deuda técnica: es fácil olvidar lo que las las distintas partes de un hacen y, aún más, la creación de código resistente a cualquier tipo de prueba. Es un concepto sencillo y comenzar a utilizarlo abre las puertas a mejores prácticas, como las pruebas unitarias, la propiedad compartida de código y a menos errores en general.\r\n\r\nTécnicamente, el refactorizado consiste en la reescritura de un código de tal forma que el resultado sea más legible, ligero, escalable y portable manteniendo íntegras todas sus funcionalidades originales.\r\n\r\nY ese es el objetivo de este libro: recoger una serie de recetas realizadas durante todo un mes de agosto (una al día) en el que se partiendo de ejemplos comunes se busca la mejor optimización mediante el refactorizado.",
+        "content_short": "La refactorización es una parte integral en la mejora continua de un código mientras çeste se mueve a través del tiempo.\r\n\r\nSin refactorización se acumula la deuda técnica: es fácil olvidar ...",
+        "publisher": "Autoedici\u00f3n",
+        "publisher_date": "2009",
+        "pages": "52",
+        "language": "english",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/31-days-of-refactoring\/",
+        "url_download": "https:\/\/openlibra.com\/book\/31-days-of-refactoring",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/06\/31_days_of_refactoring-350x453.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/06\/31_days_of_refactoring-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 222,
+                "name": "Java",
+                "nicename": "programacion_java"
+            },
+            {
+                "category_id": 218,
+                "name": "Metodolog\u00edas \u00c1giles",
+                "nicename": "metodologias_agiles"
+            },
+            {
+                "category_id": 220,
+                "name": "Programaci\u00f3n",
+                "nicename": "libros_programacion"
+            },
+            {
+                "category_id": 403,
+                "name": "Refactorizado",
+                "nicename": "programacion_refactorizado"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 3000,
+                "name": ".NET",
+                "nicename": "net"
+            },
+            {
+                "tag_id": 2999,
+                "name": "C",
+                "nicename": "c"
+            },
+            {
+                "tag_id": 97,
+                "name": "java",
+                "nicename": "java"
+            },
+            {
+                "tag_id": 31,
+                "name": "refactorizar",
+                "nicename": "refactorizar"
+            }
+        ]
+    }
+]

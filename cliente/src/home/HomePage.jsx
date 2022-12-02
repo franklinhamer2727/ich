@@ -3,6 +3,9 @@ import Homes from "../components/homes/Homes"
 import Trending from "../components/trending/Trending"
 import Upcomming from "../components/upcoming/Upcomming"
 import { latest, recommended, upcome } from "../dummyData"
+const data = require('../ejemplo.json')
+const data2 = require('../DummyData.json')
+const leidos = require('../Leidos.json')
 
 const HomePage = () => {
   const [items, setItems] = useState(upcome)
@@ -11,10 +14,10 @@ const HomePage = () => {
   return (
     <>
       <Homes />
-      <Upcomming items={items} title='Libros Mas Leidos' />
-      <Upcomming items={item} title='Últimas publicaciones' />
+      <Upcomming items={leidos} title='Libros Mas Leidos' />
+      <Upcomming items={data2} title='Últimas publicaciones' />
       {/* <Trending /> */}
-      <Upcomming items={rec} title='Libros Recomendados' />
+      <Upcomming items={data} title='Libros Recomendados' />
     </>
   )
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const Ucard = ({ item: { id, cover, name, time } }) => {
+const Ucard = ({ item: { ID, cover, title, author,publisher } }) => {
   return (
     <>
       <div className='MovieBox'>
@@ -9,13 +9,16 @@ const Ucard = ({ item: { id, cover, name, time } }) => {
           <img src={cover} alt='' />
         </div>
         <div className='text'>
-          <h3>{name}</h3>
-          <span>{time}</span> <br />
-          <Link to={`/singlepage/${id}`}>
-          <button className='primary-btn'>
-            <i className='fa fa-play'></i> LEER
-          </button>
-          </Link>
+          <h3>{title}</h3>
+          <span>{author}</span> <br />
+          <span>{publisher}</span> <br />
+          <a href={`/singlepage/${ID}`}>
+            <button className='primary-btn'>
+              <i className='fa fa-play'></i> LEER
+            </button>
+
+
+          </a>
         </div>
       </div>
     </>

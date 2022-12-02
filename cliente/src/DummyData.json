@@ -1,0 +1,662 @@
+[
+    {
+        "ID": "1151",
+        "title": "The Linux Command Line",
+        "author": "William E. Shotts, Jr.",
+        "content": "Interfaz de Línea de Comandos (CLI), por su acrónimo en inglés de Command Line Interface (CLI), es un método que permite a las personas dar instrucciones a algún programa informático por medio de una línea de texto simple.\r\n\r\nDiseñado para la nueva línea de comandos en Linux, este volúmen cubre todo el material que puede encontrarse en LinuxCommand.org pero con un mayor grado de detalle. Además de todos los conceptos básicos de la consola y el uso del shell scripting, esta guía incluye capítulos con aspectos reservados a su uso en algunos de los programas Linux más usuales así como algunos conceptos avanzados que no encontrará en otra parte. ",
+        "content_short": "Interfaz de Línea de Comandos (CLI), por su acrónimo en inglés de Command Line Interface (CLI), es un método que permite a las personas dar instrucciones a algún programa informático ...",
+        "publisher": "LinuxCommand.org",
+        "publisher_date": "2009",
+        "pages": "522",
+        "language": "english",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/the-linux-command-line\/",
+        "url_download": "https:\/\/openlibra.com\/book\/the-linux-command-line",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/06\/linux_command_line-325x461.png",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/06\/linux_command_line-110x153.png",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 233,
+                "name": "GNU \/ Linux",
+                "nicename": "libros_gnu_linux"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 422,
+                "name": "command line",
+                "nicename": "command_line"
+            },
+            {
+                "tag_id": 237,
+                "name": "gnu",
+                "nicename": "gnu"
+            },
+            {
+                "tag_id": 246,
+                "name": "Linux",
+                "nicename": "linux"
+            }
+        ]
+    },
+    {
+        "ID": "2599",
+        "title": "Producir Software de C\u00f3digo Abierto: Como Llevar a Buen Puerto un Proyecto de C\u00f3digo Libre",
+        "author": "Varios",
+        "content": "Los proyectos de software libre han permitido a una nueva cultúra evolucionar, un ethos en el cual la libertad de hacer que el software haga cualquier cosa que deseamos sea el eje central, sin embargo, el resultado de ésta libertad no es la dispersión de los individuos, cada uno trabajando por su cuenta en el código, sino la colaboración entusiasta. De hecho, ser un cooperador competente es en si, una de las cualidades mas valoradas en el software libre. Dirigir uno de estos proyectos es abordar un tipo de cooperación hipertrofiada, donde la habilidad de, no sólo trabajar con otros, pero de ingeniar nuevas maneras de trabajar en conjunto, pueden producir beneficios tangibles para el desarrollo. Este libro intenta describir las técnicas con las que esto se puede lograr. No es de ninguna manera completo, pero al menos es un inicio.\r\n\r\nEl buen software libre es ya en si mismo un objetivo y espero que aquellos lectores que vengan buscando como lograrlo esten satisfechos con lo que van a encontrar aquí. Pero más allá de esto, espero transmitir algo del doloroso placer de trabajar con un equipo motivado de desarrolladores de código abierto y de la interacción con los usuarios en la maravillosa manera directa que el Open Source anima. Participar en un proyecto de software libre exitoso es divertido y en última instancia es esto lo que mantiene a todo el sistema funcionando.",
+        "content_short": "Los proyectos de software libre han permitido a una nueva cultúra evolucionar, un ethos en el cual la libertad de hacer que el software haga cualquier cosa que deseamos sea ...",
+        "publisher": " O'Reilly",
+        "publisher_date": "2007",
+        "pages": "201",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/producir-software-de-codigo-abierto-como-llevar-a-buen-puerto-un-proyecto-de-codigo-libre\/",
+        "url_download": "https:\/\/openlibra.com\/book\/producir-software-de-codigo-abierto-como-llevar-a-buen-puerto-un-proyecto-de-codigo-libre",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2012\/04\/Producir-Software-de-C\u00f3digo-Abierto_Como-Llevar-a-Buen-Puerto-un-Proyecto-de-C\u00f3digo-Libre-350x459.jpg",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2012\/04\/Producir-Software-de-C\u00f3digo-Abierto_Como-Llevar-a-Buen-Puerto-un-Proyecto-de-C\u00f3digo-Libre-110x153.jpg",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 220,
+                "name": "Programaci\u00f3n",
+                "nicename": "libros_programacion"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 288,
+                "name": "desarrollo",
+                "nicename": "desarrollo"
+            },
+            {
+                "tag_id": 531,
+                "name": "Gesti\u00f3n",
+                "nicename": "gestion"
+            },
+            {
+                "tag_id": 177,
+                "name": "open source",
+                "nicename": "open-source"
+            },
+            {
+                "tag_id": 70,
+                "name": "software libre",
+                "nicename": "software_libre"
+            }
+        ]
+    },
+    {
+        "ID": "4870",
+        "title": "VoIP\u00a0para\u00a0el\u00a0desarrollo",
+        "author": "Alberto\u00a0Escudero\u00ad Pascual\u00a0 & Louise\u00a0Berthilson",
+        "content": "No fue hasta la primavera del año 2004 cuando descubrí un programa libre * que era capaz de hacer exactamente lo que necesitaba. Por aquel tiempo vivía en Tanzania y tuve que sufrir, no sólo que la línea telefónica era inestable, sino que, además, las tarifas telefónicas eran totalmente desorbitantes. Tan pronto como conseguí un acceso a la Internet empecé a usar una de esas aplicaciones, tan propietaria como conocida, para hacer mis llamadas a Europa. Pronto me di cuenta que el programa no me daba la flexibilidad que yo quería porque lo que realmente necesitaba era poder hacer llamadas a través de mi línea telefónica en Suecia y poder ofrecer esa conexión de voz a mis vecinos. \r\n\r\nLa idea de usar la Internet como si fuera una red telefónica no era nueva, pero el proyecto que me daba toda esa flexibilidad era, desde luego, “revolucionario”. El programa que permitía que mi computadora se convirtiera en una centralita telefónica se llamaba “Asterisk.”1 No necesité demasiado tiempo para descubrir que Asterisk era capaz de hacer mucho más de lo que nunca me pude imaginar. Mientras lo exploraba me daba cuenta del mundo de posibilidades y oportunidades que ofrecía, especialmente en las regiones en desarrollo. La sensación de aquel momento era muy parecida a la de mi primera conexión a la World Wide Web en 1994. \r\n\r\nSin ningún género de dudas aprender a poner en marcha un sistema con Asterisk fue una tarea que requirió gran perseverancia (sí, algunos me llaman obcecado). Empecé a escribir estas líneas de introducción a la voz IP porque, aunque ya existen algunos libros muy buenos sobre el tema, no he encontrado un documento que describa los conceptos más básicos en palabras que la mayoría de los mortales puedan entender. Esta “guía” pretende describirte los conceptos esenciales de la telefonía sobre IP y darte unos ejemplos concretos de su potencialidad en regiones en desarrollo. Como el reto al escribir este documento era crear un documento breve sin pecar de simplismo, una gran parte del esfuerzo ha sido intentar ser lo más pedagógico posible. ",
+        "content_short": "No fue hasta la primavera del año 2004 cuando descubrí un programa libre * que era capaz de hacer exactamente lo que necesitaba. Por aquel tiempo vivía en Tanzania y ...",
+        "publisher": "Autoedici\u00f3n",
+        "publisher_date": "2012",
+        "pages": "46",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/voip-para-el-desarrollo\/",
+        "url_download": "https:\/\/openlibra.com\/book\/voip-para-el-desarrollo",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2012\/10\/VoIP_para_el_desarrollo-OpenLibra-350x459.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2012\/10\/VoIP_para_el_desarrollo-OpenLibra-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 368,
+                "name": "Herramientas",
+                "nicename": "software_libre_herramientas"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 873,
+                "name": "Asterisk",
+                "nicename": "asterisk"
+            },
+            {
+                "tag_id": 288,
+                "name": "desarrollo",
+                "nicename": "desarrollo"
+            },
+            {
+                "tag_id": 1550,
+                "name": "est\u00e1ndares",
+                "nicename": "estandares"
+            },
+            {
+                "tag_id": 1551,
+                "name": "pa\u00edses emergentes",
+                "nicename": "paises-emergentes"
+            },
+            {
+                "tag_id": 874,
+                "name": "telefon\u00eda",
+                "nicename": "telefonia"
+            },
+            {
+                "tag_id": 875,
+                "name": "VoIP",
+                "nicename": "voip"
+            }
+        ]
+    },
+    {
+        "ID": "5696",
+        "title": "GNU\/Linux. Sistema Operativo y Servicios",
+        "author": "Varios",
+        "content": "Todo este gran manual se hace con la intención de ayudar a las personas que se están iniciando en Linux. \r\n\r\nPara ello, se pretende dar a conocer los conceptos básicos y la gran funcionalidad, estabilidad y bajo costo que nos ofrece este sistema operativo. Se ha intentado también documentar paso a paso de todos los servicios que podemos implementar: desde la instalación simple de un sistema operativo Linux Ubuntu Edición Server 12.04, hasta la implementación de servidores de bases de datos, web y otros servicios.",
+        "content_short": "Todo este gran manual se hace con la intención de ayudar a las personas que se están iniciando en Linux. \r\n\r\nPara ello, se pretende dar a conocer los conceptos básicos ...",
+        "publisher": "Autoedici\u00f3n",
+        "publisher_date": "2012",
+        "pages": "181",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/gnulinux-sistema-operativo-y-servicios\/",
+        "url_download": "https:\/\/openlibra.com\/book\/gnulinux-sistema-operativo-y-servicios",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2012\/12\/Linux-sistema-operativo-y-servicios-OpenLibra-323x461.jpg",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2012\/12\/Linux-sistema-operativo-y-servicios-OpenLibra-110x153.jpg",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 233,
+                "name": "GNU \/ Linux",
+                "nicename": "libros_gnu_linux"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 36,
+                "name": "apache",
+                "nicename": "apache"
+            },
+            {
+                "tag_id": 1624,
+                "name": "DHCP",
+                "nicename": "dhcp"
+            },
+            {
+                "tag_id": 552,
+                "name": "DNS",
+                "nicename": "dns"
+            },
+            {
+                "tag_id": 1623,
+                "name": "FTP",
+                "nicename": "ftp"
+            },
+            {
+                "tag_id": 806,
+                "name": "GNU\/Linux",
+                "nicename": "gnulinux"
+            },
+            {
+                "tag_id": 1622,
+                "name": "kernel",
+                "nicename": "kernel"
+            },
+            {
+                "tag_id": 2989,
+                "name": "MySQL",
+                "nicename": "mysql"
+            },
+            {
+                "tag_id": 1519,
+                "name": "Raid",
+                "nicename": "raid"
+            },
+            {
+                "tag_id": 528,
+                "name": "Samba",
+                "nicename": "samba"
+            },
+            {
+                "tag_id": 474,
+                "name": "Shell",
+                "nicename": "shell"
+            },
+            {
+                "tag_id": 560,
+                "name": "SSH",
+                "nicename": "ssh"
+            },
+            {
+                "tag_id": 439,
+                "name": "Ubuntu",
+                "nicename": "ubuntu"
+            }
+        ]
+    },
+    {
+        "ID": "6656",
+        "title": "Corre Linux Corre",
+        "author": "Fernando Monroy",
+        "content": "Este es un libro NO oficial basado en la distribución de Ubuntu (Gnu Linux), esta desarrollado y pensado para todos aquellos que quieran iniciarse en el mundo de Gnu Linux.\r\n\r\nLos procesos se explican de manera sencilla, de forma gráfica y didácticamente. Cuando uses este libro sentirás un acompañamiento como si alguien estuviera guiándote de forma presencial, pues así esta pensado.\r\n\r\nSe reconoce y respeta que tanto la marca Linux como Ubuntu se encuentran registradas y se hace énfasis que este es un Libro No Oficial.\r\n\r\nEn Gnu Linux existen diferentes maneras de hacer los procesos de instalación y configuración, pero en esta guía se presenta el método más cómodo para el usuario novato.",
+        "content_short": "Este es un libro NO oficial basado en la distribución de Ubuntu (Gnu Linux), esta desarrollado y pensado para todos aquellos que quieran iniciarse en el mundo de Gnu Linux.\r\n\r\nLos ...",
+        "publisher": "Autoedici\u00f3n",
+        "publisher_date": "2013",
+        "pages": "122",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/corre-linux-corre\/",
+        "url_download": "https:\/\/openlibra.com\/book\/corre-linux-corre",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/02\/Corre-Linux-Corre-OpenLibra-350x457.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/02\/Corre-Linux-Corre-OpenLibra-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 233,
+                "name": "GNU \/ Linux",
+                "nicename": "libros_gnu_linux"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 806,
+                "name": "GNU\/Linux",
+                "nicename": "gnulinux"
+            },
+            {
+                "tag_id": 70,
+                "name": "software libre",
+                "nicename": "software_libre"
+            },
+            {
+                "tag_id": 439,
+                "name": "Ubuntu",
+                "nicename": "ubuntu"
+            }
+        ]
+    },
+    {
+        "ID": "7397",
+        "title": "Software Libre para gente peque\u00f1a",
+        "author": "Varios",
+        "content": "Este es un libro creado por un grupo de personas apasionadas por el software libre y con muchas ganas de transmitir esa pasión a otras personas. \r\n\r\nNos propusimos recopilar en un libro destinado a chicos de 3 a 12 años, propuestas interesantes sobre herramientas, software y contenidos educativos libres. Buscamos hacer algo breve y atractivo, donde cada capítulo brinde un paso a pasode una actividad, sin necesidad de definiciones o de mostrar la esenciade la herramienta. Para compensar la posible falta, incluimos enlaces que lleven a los lectores más curiosos a seguir aprendiendo sobre cada uno de los temas. \r\nLos autores somos originarios de varios países: Argentina, Ecuador, España, México, Chile, Uruguay. Eso explica la diferencia de vocabulario entre uno y otro capítulo. \r\n\r\nEscribir es algo muy parecido a pintar un cuadro. Elegir el pincel y el color exacto, y la cantidad de agua justa, mezclando un poquito de uno y otro recipiente, es una tarea cuyos secretos conoce sólo el artista. Por eso respetamos la obra de cada uno e intentamos resolver las diferencias idiomáticas con la inclusión de un glosario que unifique los términos entre los diferentes países. Eso sí: nosotros no trabajamos sin esperar nada a cambio. Esperamos mensajes, trabajos, dibujos, programas y sobre todo críticas que nos ayuden a hacer mejor el próximo libro... porque no creemos que este sea el último, con permiso de los lectores. Soñamos con que sea sólo el primero de una serie de libros dirigidos a diferentes grupos de usuarios. \r\n\r\nPero para qué voy a seguir hablando yo sobre el libro... teniendo unos amigos que van a explicar mucho mejor que yo de qué se trata todo esto. Los invito a conocer a las dos familias que un día empezaron comprando una computadora. Casualmente, el mismo día y en el mismo lugar. Pero hicieron caminos muy diferentes...",
+        "content_short": "Este es un libro creado por un grupo de personas apasionadas por el software libre y con muchas ganas de transmitir esa pasión a otras personas. \r\n\r\nNos propusimos recopilar en ...",
+        "publisher": "Autoedici\u00f3n",
+        "publisher_date": "2013",
+        "pages": "203",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/software-libre-para-gente-pequena\/",
+        "url_download": "https:\/\/openlibra.com\/book\/software-libre-para-gente-pequena",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/03\/Software_libre_para_gente_pequena-OpenLibra-331x461.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/03\/Software_libre_para_gente_pequena-OpenLibra-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 1441,
+                "name": "Educaci\u00f3n",
+                "nicename": "educacion"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 718,
+                "name": "c\u00f3mic",
+                "nicename": "comic"
+            },
+            {
+                "tag_id": 567,
+                "name": "educaci\u00f3n",
+                "nicename": "educacion"
+            },
+            {
+                "tag_id": 1169,
+                "name": "ni\u00f1os",
+                "nicename": "ninos"
+            },
+            {
+                "tag_id": 1249,
+                "name": "pedagog\u00eda",
+                "nicename": "pedagogia"
+            },
+            {
+                "tag_id": 70,
+                "name": "software libre",
+                "nicename": "software_libre"
+            }
+        ]
+    },
+    {
+        "ID": "9589",
+        "title": "Configuraci\u00f3n De Servidores Con GNU\/Linux. Ed Mayo 2013",
+        "author": "Joel Barrios Due\u00f1as",
+        "content": "GNU\/Linux es uno de los términos empleados para referirse a la combinación del núcleo o kernel libre similar a Unix denominado Linux con el sistema GNU. Su desarrollo es uno de los ejemplos más prominentes de software libre; todo su código fuente puede ser utilizado, modificado y redistribuido libremente por cualquiera bajo los términos de la GPL y otra serie de licencias libres.\r\n\r\nEsta obra, que ahora comparto con los lectores, constituye la culminación del trabajo de más de 10 años de investigación y experiencias. Mucho del material que le compone fue escrito durante diferentes etapas de mi ciclo mientras fui propietario y administrador de Linux Para Todos. El fin de dicho ciclo me da la oportunidad de explorar otras áreas de la informática desde un diferente enfoque, mismo que se verá reflejado en el material actualizado que compone esta obra. \r\n\r\nAlgunos de los aspectos que aquí se tratan son:\r\n<ul>\r\n<li>Introducción al sistema GNU\/Linux<\/li>\r\n<li>Instalación, configuración y uso de CentOS 6<\/li>\r\n<li>Introducción a AWK<\/li>\r\n<li>Configuración y uso de Crond<\/li>\r\n<li>Introducción a TCP\/IP<\/li>\r\n<li>Configuración de VLANs<\/li>\r\n<li>Conexiones Netcat, Netstat, wifi<\/li>\r\n<li>Configuración de servidor DHCP<\/li>\r\n<li>Configuración de OpenSSH, NTP y NFS<\/li>\r\n<li>Introducción a OpenLDAP<\/li>\r\n<\/ul>",
+        "content_short": "GNU\/Linux es uno de los términos empleados para referirse a la combinación del núcleo o kernel libre similar a Unix denominado Linux con el sistema GNU. Su desarrollo es uno ...",
+        "publisher": "www.alcancelibre.org",
+        "publisher_date": "2013",
+        "pages": "778",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/configuracion-de-servidores-con-gnulinux\/",
+        "url_download": "https:\/\/openlibra.com\/book\/configuracion-de-servidores-con-gnulinux",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/05\/Configuracion-Servidores-2013-OpenLibra-350x452.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/05\/Configuracion-Servidores-2013-OpenLibra-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 233,
+                "name": "GNU \/ Linux",
+                "nicename": "libros_gnu_linux"
+            },
+            {
+                "category_id": 230,
+                "name": "Redes y Sys Admin",
+                "nicename": "redes_y_sysadmins"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 36,
+                "name": "apache",
+                "nicename": "apache"
+            },
+            {
+                "tag_id": 444,
+                "name": "awk",
+                "nicename": "awk"
+            },
+            {
+                "tag_id": 443,
+                "name": "CentOS",
+                "nicename": "centos"
+            },
+            {
+                "tag_id": 1931,
+                "name": "ClamAV",
+                "nicename": "clamav"
+            },
+            {
+                "tag_id": 552,
+                "name": "DNS",
+                "nicename": "dns"
+            },
+            {
+                "tag_id": 806,
+                "name": "GNU\/Linux",
+                "nicename": "gnulinux"
+            },
+            {
+                "tag_id": 546,
+                "name": "LDAP",
+                "nicename": "ldap"
+            },
+            {
+                "tag_id": 1652,
+                "name": "NFS",
+                "nicename": "nfs"
+            },
+            {
+                "tag_id": 1932,
+                "name": "NTP",
+                "nicename": "ntp"
+            },
+            {
+                "tag_id": 1419,
+                "name": "OpenSSH",
+                "nicename": "openssh"
+            },
+            {
+                "tag_id": 528,
+                "name": "Samba",
+                "nicename": "samba"
+            },
+            {
+                "tag_id": 1402,
+                "name": "servidores",
+                "nicename": "servidores"
+            },
+            {
+                "tag_id": 1930,
+                "name": "Shorewall",
+                "nicename": "shorewall"
+            },
+            {
+                "tag_id": 1933,
+                "name": "Squid",
+                "nicename": "squid"
+            },
+            {
+                "tag_id": 556,
+                "name": "SSL",
+                "nicename": "ssl"
+            },
+            {
+                "tag_id": 356,
+                "name": "sysadmins",
+                "nicename": "sysadmins"
+            },
+            {
+                "tag_id": 285,
+                "name": "TCP\/IP",
+                "nicename": "tcpip"
+            },
+            {
+                "tag_id": 1929,
+                "name": "VLAN",
+                "nicename": "vlan"
+            },
+            {
+                "tag_id": 358,
+                "name": "wifi",
+                "nicename": "wifi"
+            }
+        ]
+    },
+    {
+        "ID": "10334",
+        "title": "SCOPEO #2: Aproximaci\u00f3n pedag\u00f3gica a las plataformas Open Source en la universidad espa\u00f1ola",
+        "author": "Varios",
+        "content": "El Observatorio de la Formación en Red, SCOPEO, presenta su Monográfico No. 2 Aproximación pedagógica a las plataformas open sourceen la universidad española. \r\n\r\nBajo este título tan genérico, SCOPEO pretende delimitar y analizar los Entornos Virtuales para la Enseñanza y el Aprendizaje (a partir de ahora EVEA), o Learning Management System(LMS a partir de ahora), desde un punto de vista pedagógico en el marco de la formación en red. \r\n\r\nLa primera parte del monográfico es un bloque puramente teórico, centrado en la justificación de la necesidad de una pedagogía en los espacios virtuales y presentando los principales modelos teóricos de teleformación y su posición en el sistema de formación en red. Asimismo se presentan algunas de las características principales de las plataformas para delimitar mejor su concepto, acotando el término y su evolución, la tipología de plataformas y los ámbitos (SCOPEO) en los que se utilizan las plataformas. \r\n\r\nLa segunda parte del monográfico, con un carácter más práctico, incluye un análisis comparativo de las herramientas que contienen las principales plataformas virtuales analizadas, según la valoración de seis administradores de otros tantos campus virtuales de las universidades españolas que trabajan con cada plataforma. ",
+        "content_short": "El Observatorio de la Formación en Red, SCOPEO, presenta su Monográfico No. 2 Aproximación pedagógica a las plataformas open sourceen la universidad española. \r\n\r\nBajo este título tan genérico, SCOPEO pretende ...",
+        "publisher": "Universidad de Salamanca",
+        "publisher_date": "2011",
+        "pages": "87",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/scopeo-2-aproximacion-pedagogica-a-las-plataformas-open-source-en-la-universidad-espanola\/",
+        "url_download": "https:\/\/openlibra.com\/book\/scopeo-2-aproximacion-pedagogica-a-las-plataformas-open-source-en-la-universidad-espanola",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/08\/Scopeo-2-Aproximacion-pedagogica-a-las-plataformas-open-source-en-la-Universidad-espanola-OpenLibra-325x461.png",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/08\/Scopeo-2-Aproximacion-pedagogica-a-las-plataformas-open-source-en-la-Universidad-espanola-OpenLibra-110x153.png",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 1441,
+                "name": "Educaci\u00f3n",
+                "nicename": "educacion"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 894,
+                "name": "conocimiento",
+                "nicename": "conocimiento"
+            },
+            {
+                "tag_id": 566,
+                "name": "e-learning",
+                "nicename": "e-learning"
+            },
+            {
+                "tag_id": 567,
+                "name": "educaci\u00f3n",
+                "nicename": "educacion"
+            },
+            {
+                "tag_id": 177,
+                "name": "open source",
+                "nicename": "open-source"
+            },
+            {
+                "tag_id": 1249,
+                "name": "pedagog\u00eda",
+                "nicename": "pedagogia"
+            },
+            {
+                "tag_id": 1248,
+                "name": "Universidad",
+                "nicename": "universidad"
+            }
+        ]
+    },
+    {
+        "ID": "570",
+        "title": "Aspectos legales y de explotaci\u00f3n del software libre. Parte I",
+        "author": "Varios",
+        "content": "Frente a la tendencia de apropiarse del conocimiento científico y tecnológico de las grandes empresas de informática –lideradas por Microsoft, pero también por otras empresas como Oracle, Apple, Sun y demás– se erige el movimiento de software libre (libre y abierto, por ahora no hacemos diferencia), un movimiento que quiere mantener y proteger la libertad en este sector fundamental para la sociedad moderna (o quizás sea mejor hablar del movimiento de la “creatividad libre”, por la aparición de iniciativas similares para todo tipo de obras). Se argumenta que la tendencia “propietaria” corre el riesgo de dejarnos en una sociedad del permiso –del “permiso por\r\nfavor”– que hay que pedir a los titulares del conocimiento, un permiso que se otorgará bajo condiciones restrictivas y, a veces, draconianas. Otra vez estamos en el mundo de los aspectos legales, ya que estas restricciones y prohibiciones se expresan en las licencias de uso –para instalar un software, para ver una película, para\r\nescuchar una canción.\r\n\r\nJustamente lo que quizás diferencia el sector del software de otros elementos de esta protesta general es que el movimiento de software libre se basa estricta y directamente en las leyes actuales para marcar su protesta, y se diferencia del software propietario por el uso de dichas leyes. El software libre se distingue del software propietario no por su calidad o su tecnología, aunque se haya argumentado que tiene ventajas en estas características, sino por la licencia de uso –por usar el término más común–, que no contiene las medidas de protección y de control que se incluyen tradicionalmente en las licencias de software propietario.\r\n",
+        "content_short": "Frente a la tendencia de apropiarse del conocimiento científico y tecnológico de las grandes empresas de informática –lideradas por Microsoft, pero también por otras empresas como Oracle, Apple, Sun y ...",
+        "publisher": "UOC",
+        "publisher_date": "2007",
+        "pages": "342",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/aspectos-legales-y-de-explotacion-del-software-libre-parte-i\/",
+        "url_download": "https:\/\/openlibra.com\/book\/aspectos-legales-y-de-explotacion-del-software-libre-parte-i",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/04\/aspectos_legales_explotacion_software_parte_1-325x461.png",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2011\/04\/aspectos_legales_explotacion_software_parte_1-110x153.png",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 234,
+                "name": "Aspectos Legales",
+                "nicename": "libros_aspecotos_legales"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 236,
+                "name": "explotacion",
+                "nicename": "explotacion"
+            },
+            {
+                "tag_id": 237,
+                "name": "gnu",
+                "nicename": "gnu"
+            },
+            {
+                "tag_id": 238,
+                "name": "legal",
+                "nicename": "legal"
+            },
+            {
+                "tag_id": 70,
+                "name": "software libre",
+                "nicename": "software_libre"
+            },
+            {
+                "tag_id": 239,
+                "name": "UOC",
+                "nicename": "uoc"
+            }
+        ]
+    },
+    {
+        "ID": "632",
+        "title": "Administraci\u00f3n Avanzada de GNU\/Linux",
+        "author": "Josep Jorba Esteve y Remo Suppi Boldrito",
+        "content": "Los sistemas GNU\/Linux han llegado a un grado de madurez importante, que los hacen válidos para integrarlos en cualquier ambiente de trabajo, ya sea desde el escritorio del PC personal, hasta el servidor de una gran empresa.\r\n\r\nEl objetivo principal de este curso es introducirnos en el mundo de la administración de los sistemas GNU\/Linux.\r\n\r\nAprenderemos cómo proporcionar desde GNU\/Linux los servicios necesarios a diferentes ambientes de usuarios y máquinas. El campo de la administración de sistemas es enorme, hay muchas tareas, muchos problemas por tratar, hay que tener grandes conocimientos de hardware y software, y no está de más un poco de psicología para tratar con los usuarios finales de los sistemas. El curso no pretende abordar una distribución GNU\/Linux particular, pero se han escogido un par de ellas para tratar los ejemplos: Debian y Fedora (y derivadas de Red Hat). Respecto al campo de la administración, ésta se intentará gestionar desde el nivel más bajo posible, normalmente la línea de comandos y los ficheros de configuración. Se comentarán, en su caso, herramientas de más alto nivel, pero hay que tener cuidado con estas últimas, ya que suelen ser fuertemente dependientes de la distribución utilizada e incluso de la versión de ésta; además, estas herramientas suelen variar mucho entre versiones. La administración de bajo nivel suele ser mucho más dura, pero sabemos qué estamos haciendo y dónde podemos ver los resultados, además de que nos aporta muchos conocimientos extra sobre las diferentes tecnologías utilizadas.\r\n\r\nLas distribuciones escogidas han sido: Debian GNU\/Linux Etch (4.0), y Fedora Core 7 (basada en Red Hat), utilizadas en el momento de revisar este documento (la primera edición a finales del 2003 estaba basada en Debian Gnu\/Linux Woody 3.0 y Red Hat 9). La distribución Debian es un paradigma dentro del movimiento Open Source, por no pertenecer a ninguna empresa y estar confeccionada sólo por las aportaciones de los voluntarios distribuidos por todo el mundo. Debian, además, integra exclusivamente software libre (pueden añadirse otros aparte).",
+        "content_short": "Los sistemas GNU\/Linux han llegado a un grado de madurez importante, que los hacen válidos para integrarlos en cualquier ambiente de trabajo, ya sea desde el escritorio del PC personal, ...",
+        "publisher": "UOC",
+        "publisher_date": "2007",
+        "pages": "530",
+        "language": "spanish",
+        "url_details": "https:\/\/www.etnassoft.com\/biblioteca\/administracion-avanzada-de-sistemas-gnu-linux\/",
+        "url_download": "https:\/\/openlibra.com\/book\/administracion-avanzada-de-sistemas-gnu-linux",
+        "cover": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/04\/Administracion-Avanzada-de-Sistemas-GNU-Linux-OpenLibra1.gif",
+        "thumbnail": "http:\/\/collection.openlibra.com.s3.amazonaws.com\/covers\/2013\/04\/Administracion-Avanzada-de-Sistemas-GNU-Linux-OpenLibra1-110x153.gif",
+        "num_comments": "0",
+        "categories": [
+            {
+                "category_id": 233,
+                "name": "GNU \/ Linux",
+                "nicename": "libros_gnu_linux"
+            },
+            {
+                "category_id": 232,
+                "name": "Software Libre",
+                "nicename": "libros_software_libre"
+            }
+        ],
+        "tags": [
+            {
+                "tag_id": 87,
+                "name": "Administraci\u00f3n",
+                "nicename": "administracion"
+            },
+            {
+                "tag_id": 237,
+                "name": "gnu",
+                "nicename": "gnu"
+            },
+            {
+                "tag_id": 806,
+                "name": "GNU\/Linux",
+                "nicename": "gnulinux"
+            },
+            {
+                "tag_id": 246,
+                "name": "Linux",
+                "nicename": "linux"
+            },
+            {
+                "tag_id": 322,
+                "name": "redes",
+                "nicename": "redes"
+            },
+            {
+                "tag_id": 245,
+                "name": "sistemas",
+                "nicename": "sistemas"
+            },
+            {
+                "tag_id": 356,
+                "name": "sysadmins",
+                "nicename": "sysadmins"
+            },
+            {
+                "tag_id": 239,
+                "name": "UOC",
+                "nicename": "uoc"
+            }
+        ]
+    }
+]

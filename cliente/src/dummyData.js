@@ -187,3 +187,4 @@ export const recommended = [
     time: "2hr : 38mins",
   },
 ]
+

@@ -3,17 +3,22 @@ import "./style.css"
 import { useParams } from "react-router-dom"
 import { homeData, recommended } from "../../dummyData"
 import Upcomming from "../upcoming/Upcomming"
+const leidos = require('../../2011.json')
 
+const allbook = require('../../2011.json')
 const SinglePage = () => {
-  const { id } = useParams()
+  const ID = useParams()
+
   const [item, setItem] = useState(null)
 
   useEffect(() => {
-    let item = homeData.find((item) => item.id === parseInt(id))
+    let item = allbook.find(el =>el.ID===ID.id);
+    console.log(item)
+  
     if (item) {
       setItem(item)
     }
-  }, [id])
+  }, [ID])
   const [rec, setRec] = useState(recommended)
 
   return (
@@ -22,16 +27,14 @@ const SinglePage = () => {
         <>
           <section className='singlePage'>
             <div className='singleHeading'>
-              <h1>{item.name} </h1> <span> | {item.time} | </span> <span> HD </span>
-              <h2> <span> Autores : Javier Castrillo, Dario Martin Gelbort</span></h2>
-
+              <h1>{item.title} </h1> <span> | {item.author} | </span> <span></span>
             </div>
             <div className='cadena'>
               <div className='fragmento'>
 
 
                 <div className='imagen'>
-                  <img src="https://olcovers2.blob.core.windows.net/coverswp/2017/12/sistemas-operativos-netbooks-OpenLibra.jpg"sizes="(max-width: 320px) 280px,(max-width: 480px) 440px,800px"/>
+                  <img src={item.cover}  sizes="(max-width: 320px) 280px,(max-width: 480px) 440px,800px"/>
 
                 </div>
                 <div className='resumen'>
@@ -40,42 +43,36 @@ const SinglePage = () => {
                     <tbody>
                       <tr>
                         <td>Año:</td>
-                        <td itemprop="copyrightYear">	2012 </td>
+                        <td itemprop="copyrightYear">	{item.publisher_date} </td>
                       </tr>
                       <tr>
                         <td>Editor:</td>
                         <td itemprop="publisher">
-                          <span itemprop="name"> Presidencia de la Nación  </span>
+                          <span itemprop="name">{item.publisher}  </span>
                         </td>
                       </tr>
                       <tr>
                         <td>Paginas:</td>
                         <td itemprop="publisher">
-                          <span itemprop="name"> 	68 páginas </span>
+                          <span itemprop="name"> {item.pages} </span>
                         </td>
                       </tr>
                       <tr>
                         <td>Idiomas:</td>
                         <td itemprop="publisher">
-                          <span itemprop="name"> 	español </span>
+                          <span itemprop="name"> 	{item.language} </span>
                         </td>
                       </tr>
                       <tr>
                         <td>Desde:</td>
                         <td itemprop="publisher">
-                          <span itemprop="name"> 20/12/2017 </span>
+                          <span itemprop="name">{item.publisher_date} </span>
                         </td>
                       </tr>
                       <tr>
-                        <td>Tamaño:</td>
+                        <td>Autor:</td>
                         <td itemprop="publisher">
-                          <span itemprop="name"> 2.73 MB </span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Licencia:</td>
-                        <td itemprop="publisher">
-                          <span itemprop="name"> CC-BY </span>
+                          <span itemprop="name"> {item.author}</span>
                         </td>
                       </tr>
                     </tbody>
@@ -106,15 +103,10 @@ const SinglePage = () => {
             </div>
 
             <div className='container'>
-
-              {/* <video src={item.video} controls></video> */}
               <div className='para'>
-                {/* <h3>Date : {item.date}</h3> */}
-                {/* <p>{item.desc}</p> */}
-                <h3>Contenido:</h3>
-                <p>Este material, destinado a docentes y alumnos, es una guía para conocer en forma básica el sistema operativo Windows y el sistema GNU/Linux. Se brindan elementos para situarse por primera vez en uno u otro sistema, en los elementos de su escritorio, la gestión de programas, carpetas y archivos.
 
-El sistema operativo consiste en un conjunto de programas que administran los recursos de la computadora de la forma más eficaz posible. Es el intermediario entre el hardware (los procesadores, las memorias, los dispositivos de entrada y salida) y las diversas aplicaciones que utilizamos a diario. El sistema operativo es el encargado de:</p>
+                <h3>Contenido:</h3>
+                <p>{item.content}</p>
               </div>
               <div className='soical'>
                 <h3>Share : </h3>
@@ -126,7 +118,7 @@ El sistema operativo consiste en un conjunto de programas que administran los re
             
           </section>
           <div className='f'>
-          <Upcomming items={rec} title='Recommended Movies' />
+          <Upcomming items={leidos} title='Recommended Movies' />
           </div>
         </>
       ) : (
