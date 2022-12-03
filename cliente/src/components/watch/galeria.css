@@ -1,0 +1,17 @@
+.booklist, .book-details{
+    padding: 3rem 0;
+
+}
+.booklist-content{
+    gap: 3rem;
+    display: flex;
+}
+
+@media screen and (min-width: 992px){
+    .booklist-content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .book-item-img img{
+        max-width: 120px;
+    }
+}
