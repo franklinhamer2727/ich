@@ -90,3 +90,11 @@ a.btn{
   overflow: hidden;
   position: relative;
 }
+
+/*Para el pdf */
+
+.singlePage .containerbook {
+  max-width: 50%;
+  margin: auto;
+  height: 80vh;
+}
