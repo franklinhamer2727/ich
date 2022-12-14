@@ -5,6 +5,8 @@ import Upcomming from "../components/upcoming/Upcomming";
 import { latest, recommended, upcome } from "../dummyData";
 import { useSpeechContext } from "@speechly/react-client";
 
+import "./style.css"
+
 const data = require("../ejemplo.json");
 const data2 = require("../DummyData.json");
 const leidos = require("../Leidos.json");
@@ -26,8 +28,8 @@ const HomePage = () => {
     return (
         <>
             <Homes />
-            <div className="App">
-                <button onClick={attachMicrophone}>
+            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+                <button  onClick={attachMicrophone}>
                     Activar Comando de voz
                 </button>
                 <button onPointerDown={start} onPointerUp={stop}>
@@ -38,6 +40,8 @@ const HomePage = () => {
                         segment.words.map((word) => word.value).join(" ")}
                 </h1>
             </div>
+
+
             <Upcomming items={leidos} title="Libros Mas Leidos" />
             <Upcomming items={data2} title="Últimas publicaciones" />
             {/* <Trending /> */}
