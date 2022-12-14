@@ -5,7 +5,7 @@ import Upcomming from "../components/upcoming/Upcomming";
 import { latest, recommended, upcome } from "../dummyData";
 import { useSpeechContext } from "@speechly/react-client";
 
-import "./style.css"
+import "./style.css";
 
 const data = require("../ejemplo.json");
 const data2 = require("../DummyData.json");
@@ -20,28 +20,56 @@ const HomePage = () => {
 
     // attachMicrophone();
     let palabras = "";
+    let listaPalabras;
+    const keywords = ["index"];
+
     if (typeof segment != "undefined") {
-        palabras = segment.words.map((word) => word.value).join(" ");
-        console.log(palabras);
+        listaPalabras = segment.words.map((w) => w.value);
+
+        console.log(listaPalabras);
+
+        if (listaPalabras.includes("go")) {
+            if (listaPalabras.includes("index")) {
+                window.location.reload();
+            }
+
+            // if (listaPalabras.includes("next")) {
+            //     // to do action
+            // }
+        }
     }
 
     return (
         <>
             <Homes />
-            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
-                <button  onClick={attachMicrophone}>
-                    Activar Comando de voz
-                </button>
-                <button onPointerDown={start} onPointerUp={stop}>
-                    {listening ? "Listening…" : "Push to talk"}
-                </button>
-                <h1>
-                    {segment &&
-                        segment.words.map((word) => word.value).join(" ")}
-                </h1>
+            <div>
+                <div
+                    style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                    }}
+                >
+                    <button onClick={attachMicrophone}>
+                        Activar Comando de voz
+                    </button>
+                    <button onPointerDown={start} onPointerUp={stop}>
+                        {listening ? "Escuchando..." : "Presione para escuchar"}
+                    </button>
+                </div>
+                <div
+                    style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                    }}
+                >
+                    <h1>
+                        {segment &&
+                            segment.words.map((word) => word.value).join(" ")}
+                    </h1>
+                </div>
             </div>
-
-
             <Upcomming items={leidos} title="Libros Mas Leidos" />
             <Upcomming items={data2} title="Últimas publicaciones" />
             {/* <Trending /> */}
