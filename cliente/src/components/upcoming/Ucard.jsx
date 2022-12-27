@@ -9,7 +9,7 @@ const Ucard = ({ item: { ID, cover, title, author, publisher } }) => {
                     <img src={cover} alt="" />
                 </div>
                 <div className="text">
-                    <h3>{title}</h3>
+                    <h3 style={{'color':'white'}}>{title}</h3>
                     <span>{author}</span> <br />
                     <span>{publisher}</span> <br />
                     <a href={`/singlepage/${ID}`}>

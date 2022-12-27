@@ -28,9 +28,6 @@ const Header = () => {
                             <li>
                                 <a href="/libros-recomendados">Recomendados</a>
                             </li>
-                            {/* <li>
-                <a href='/'>Pricing</a>
-              </li> */}
                             <li>
                                 <a href="/">Contacto</a>
                             </li>
@@ -47,10 +44,8 @@ const Header = () => {
                         </button>
                     </nav>
                     <div className="account flexSB">
-                        <i className="fa fa-search"></i>
-                        <i class="fas fa-bell"></i>
-                        <i className="fas fa-user"></i>
-                        <button>Suscribete Ahora</button>
+                    
+                        <a href="/login"><i className="fas fa-user"></i></a>
                     </div>
                 </div>
             </header>

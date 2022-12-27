@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Homes from "../components/homes/Homes";
 import Trending from "../components/trending/Trending";
 import Upcomming from "../components/upcoming/Upcomming";
-import { latest, recommended, upcome } from "../dummyData";
+// import { latest, recommended, upcome } from "../dummyData";
 import { useSpeechContext } from "@speechly/react-client";
 import HandsCapture from "../components/handscapture/HandsCapture";
 
@@ -13,9 +13,9 @@ const data2 = require("../DummyData.json");
 const leidos = require("../Leidos.json");
 
 const HomePage = () => {
-    const [items, setItems] = useState(upcome);
-    const [item, setItem] = useState(latest);
-    const [rec, setRec] = useState(recommended);
+    // const [items, setItems] = useState(upcome);
+    // const [item, setItem] = useState(latest);
+    // const [rec, setRec] = useState(recommended);
     const { segment, listening, attachMicrophone, start, stop } =
         useSpeechContext();
 

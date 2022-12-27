@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SinglePage from "./components/watch/SinglePage";
 import Book from "./components/watch/Book";
 import AllBook from "./components/watch/AllBook";
+import Galeria from "./components/watch/GaleriBook";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 
@@ -21,20 +22,21 @@ function App() {
                     />
                     <Route
                         path="/:ultimas_publicaciones"
-                        component={AllBook}
+                        component={Galeria}
                         exact
                     />
                     <Route
                         path="/:libros_mas_leidos"
-                        component={AllBook}
+                        component={Galeria}
                         exact
                     />
                     <Route
                         path="/:libros_recomendados"
-                        component={AllBook}
+                        component={Galeria}
                         exact
                     />
                     <Route path="/singlepage/:id/book" component={Book} exact />
+                    <Route exact path="/login" component={AllBook} />
                 </Switch>
                 <Footer />
             </Router>
