@@ -5,7 +5,7 @@ import { Hands } from "@mediapipe/hands";
 import * as hands from "@mediapipe/hands";
 import { drawConnectors, drawLandmarks } from "@mediapipe/drawing_utils";
 
-const Mediapipe = () => {
+const HandsCapture = () => {
     const webcamRef = useRef(null);
     const canvasRef = useRef(null);
     const connect = window.drawConnectors;
@@ -122,4 +122,4 @@ const Mediapipe = () => {
     );
 };
 
-export default Mediapipe;
+export default HandsCapture;
