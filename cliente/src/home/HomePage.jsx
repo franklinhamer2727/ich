@@ -75,7 +75,6 @@ const HomePage = () => {
             <Upcomming items={data2} title="Últimas publicaciones" />
             {/* <Trending /> */}
             <Upcomming items={data} title="Libros Recomendados" />
-            <HandsCapture />
         </>
     );
 };
