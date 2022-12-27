@@ -4,6 +4,7 @@ import Trending from "../components/trending/Trending";
 import Upcomming from "../components/upcoming/Upcomming";
 import { latest, recommended, upcome } from "../dummyData";
 import { useSpeechContext } from "@speechly/react-client";
+import HandsCapture from "../components/handscapture/HandsCapture";
 
 import "./style.css";
 
@@ -74,6 +75,7 @@ const HomePage = () => {
             <Upcomming items={data2} title="Últimas publicaciones" />
             {/* <Trending /> */}
             <Upcomming items={data} title="Libros Recomendados" />
+            <HandsCapture />
         </>
     );
 };
