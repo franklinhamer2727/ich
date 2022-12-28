@@ -1,17 +1,9 @@
-<<<<<<< HEAD
 import React from "react";
 import Homes from "../components/homes/Homes";
 
-=======
-import React, { useState, useEffect } from "react";
-import Homes from "../components/homes/Homes";
->>>>>>> ff852f718cd33dd5ba274a19d12cbcd808c99696
 import Upcomming from "../components/upcoming/Upcomming";
 import { useSpeechContext } from "@speechly/react-client";
-<<<<<<< HEAD
-=======
 import Microphone from "../components/microphone/Microphone";
->>>>>>> ff852f718cd33dd5ba274a19d12cbcd808c99696
 
 import "./style.css";
 
@@ -23,14 +15,7 @@ const HomePage = () => {
     const { segment, listening, attachMicrophone, start, stop } =
         useSpeechContext();
 
-<<<<<<< HEAD
-    // attachMicrophone();
-
     let listaPalabras;
-    
-=======
-    let listaPalabras;
->>>>>>> ff852f718cd33dd5ba274a19d12cbcd808c99696
 
     if (typeof segment != "undefined") {
         listaPalabras = segment.words.map((w) => w.value);
@@ -43,10 +28,6 @@ const HomePage = () => {
             }
         }
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> ff852f718cd33dd5ba274a19d12cbcd808c99696
 
     return (
         <>

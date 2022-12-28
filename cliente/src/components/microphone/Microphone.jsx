@@ -4,9 +4,8 @@ const Microphone = () => {
     const { segment, listening, attachMicrophone, start, stop } =
         useSpeechContext();
 
-    let palabras = "";
     let listaPalabras;
-    const keywords = ["index"];
+    let flag_go_down = true;
 
     if (typeof segment != "undefined") {
         listaPalabras = segment.words.map((w) => w.value);
@@ -16,6 +15,14 @@ const Microphone = () => {
         if (listaPalabras.includes("go")) {
             if (listaPalabras.includes("index")) {
                 window.location.reload();
+            }
+        }
+
+        if (listaPalabras.includes("go")) {
+            if (listaPalabras.includes("down")) {
+                if (flag_go_down) {
+                    // Ejecutar codigo en el iframe
+                }
             }
         }
     }
