@@ -3,6 +3,7 @@ import "./style.css";
 import { useParams } from "react-router-dom";
 import Upcomming from "../upcoming/Upcomming";
 import Microphone from "../microphone/Microphone";
+import Iframe from "./Iframe";
 
 const leidos = require("../../2011.json");
 
@@ -47,13 +48,9 @@ const Book = () => {
                             <span> | {item.author} |</span> <span></span>
                         </div>
                         <div className="containerbook">
-                            <div style={{ width: "100%", height: "100%" }}>
-                                <iframe
-                                    src={item.url_download}
-                                    width="100%"
-                                    height="100%"
-                                />
-                            </div>
+                            {/* //aqui estaba lo que esta ahora iFRAME */}
+                            <Iframe value ={item.url_download} />
+
                         </div>
                         <Microphone />
 

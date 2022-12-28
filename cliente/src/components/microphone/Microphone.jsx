@@ -1,5 +1,8 @@
 import { useSpeechContext } from "@speechly/react-client";
 
+import {render,fireEvent,screen} from '@testing-library/react';
+import Iframe from "../watch/Iframe";
+
 const Microphone = () => {
     const { segment, listening, attachMicrophone, start, stop } =
         useSpeechContext();
@@ -21,7 +24,14 @@ const Microphone = () => {
         if (listaPalabras.includes("go")) {
             if (listaPalabras.includes("down")) {
                 if (flag_go_down) {
-                    // Ejecutar codigo en el iframe
+                    test(()=>{
+                        const {getByTestId} = render(<Iframe/>);
+                        const element = getByTestId('mielemento');
+                        fireEvent.keyDown(element,{
+                            key:'s',
+                            shiftKey:true
+                        });
+                    });
                 }
             }
         }
