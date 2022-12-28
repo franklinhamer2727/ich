@@ -18,6 +18,7 @@ async function allLibros(req,res){
 }
 async function getLibros(req,res){
     var {id}= req.params;
+    var newLibros = await Libros.create(libros);
     var libros = await Libros.findOne({
         where:{
             id
