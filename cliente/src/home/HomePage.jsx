@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 import React from "react";
 import Homes from "../components/homes/Homes";
 
+=======
+import React, { useState, useEffect } from "react";
+import Homes from "../components/homes/Homes";
+>>>>>>> ff852f718cd33dd5ba274a19d12cbcd808c99696
 import Upcomming from "../components/upcoming/Upcomming";
-//import { latest, recommended, upcome } from "../dummyData";
 import { useSpeechContext } from "@speechly/react-client";
+<<<<<<< HEAD
+=======
+import Microphone from "../components/microphone/Microphone";
+>>>>>>> ff852f718cd33dd5ba274a19d12cbcd808c99696
 
 import "./style.css";
 
@@ -15,10 +23,14 @@ const HomePage = () => {
     const { segment, listening, attachMicrophone, start, stop } =
         useSpeechContext();
 
+<<<<<<< HEAD
     // attachMicrophone();
 
     let listaPalabras;
     
+=======
+    let listaPalabras;
+>>>>>>> ff852f718cd33dd5ba274a19d12cbcd808c99696
 
     if (typeof segment != "undefined") {
         listaPalabras = segment.words.map((w) => w.value);
@@ -31,42 +43,30 @@ const HomePage = () => {
             }
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ff852f718cd33dd5ba274a19d12cbcd808c99696
 
     return (
         <>
             <Homes />
-            <div>
-                <div
-                    style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}
-                >
-                    <button onClick={attachMicrophone}>
-                        Activar Comando de voz
-                    </button>
-                    <button onPointerDown={start} onPointerUp={stop}>
-                        {listening ? "Escuchando..." : "Presione para escuchar"}
-                    </button>
-                </div>
-                <div
-                    style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}
-                >
-                    <h1>
-                        {segment &&
-                            segment.words.map((word) => word.value).join(" ")}
-                    </h1>
-                </div>
-            </div>
-            <Upcomming items={libros_mas_leidos} title="Libros Mas Leidos" link ="libros_mas_leidos"/>
-            <Upcomming items={ultimas_publicaciones} title="Últimas publicaciones"link ="ultimas_publicaciones" />
-            <Upcomming items={libros_recomendados} title="Libros Recomendados" link="libros_recomendados" />
+            <Microphone />
+            <Upcomming
+                items={libros_mas_leidos}
+                title="Libros Mas Leidos"
+                link="libros_mas_leidos"
+            />
+            <Upcomming
+                items={ultimas_publicaciones}
+                title="Últimas publicaciones"
+                link="ultimas_publicaciones"
+            />
+            <Upcomming
+                items={libros_recomendados}
+                title="Libros Recomendados"
+                link="libros_recomendados"
+            />
         </>
     );
 };
