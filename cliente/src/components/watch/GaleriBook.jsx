@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 // import "./style.css"
 import "./galeria.css"
 import { useParams } from "react-router-dom"
-import { homeData, recommended } from "../../dummyData"
-import Upcomming from "../upcoming/Upcomming"
 import {Grid} from '@material-ui/core';
 import Ucard from "../upcoming/Ucard"
 //mas leidos
@@ -14,8 +12,8 @@ const data2 = require('../../DummyData.json')
 const leidos = require('../../Leidos.json')
 
 const GaleriBook = () => {
-    const ID = useParams()
-    let data
+    const ID = useParams();
+    let data;
     if (ID.ultimas_publicaciones === "ultimas_publicaciones") { data = leidos }
     else if (ID.ultimas_publicaciones === "libros_recomendados") { data = data2 }
     else if (ID.ultimas_publicaciones === "libros_mas_leidos") { data = data1 }

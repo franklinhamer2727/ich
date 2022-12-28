@@ -36,13 +36,6 @@ const Book = () => {
   }, [ID])
 
 
-
-
-
-
-
-
-
   return (
     <>
       {item ? (

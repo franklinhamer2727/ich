@@ -29,7 +29,7 @@ const Header = () => {
                                 <a href="/libros_recomendados">Recomendados</a>
                             </li>
                             <li>
-                                <a href="/">Contacto</a>
+                                <a href="/contacto">Contacto</a>
                             </li>
                         </ul>
                         <button
@@ -46,6 +46,8 @@ const Header = () => {
                     <div className="account flexSB">
                     
                         <a href="/login"><i className="fas fa-user"></i></a>
+                        <a href="/registrar">Registrarse</a>
+                        
                     </div>
                 </div>
             </header>

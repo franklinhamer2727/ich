@@ -7,6 +7,7 @@ import AllBook from "./components/watch/AllBook";
 import Galeria from "./components/watch/GaleriBook";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import RegisterForm from "./components/watch/RegisterForm";
 
 function App() {
     return (
@@ -35,8 +36,14 @@ function App() {
                         component={Galeria}
                         exact
                     />
+                    <Route
+                        path="/:registrar"
+                        component={RegisterForm}
+                        exact
+                    />
                     <Route path="/singlepage/book/:id" component={Book} exact />
-                    <Route exact path="/login" component={AllBook} />
+            
+        
                 </Switch>
                 <Footer />
             </Router>
