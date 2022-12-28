@@ -35,7 +35,7 @@ function App() {
                         component={Galeria}
                         exact
                     />
-                    <Route path="/singlepage/:id/book" component={Book} exact />
+                    <Route path="/singlepage/book/:id" component={Book} exact />
                     <Route exact path="/login" component={AllBook} />
                 </Switch>
                 <Footer />

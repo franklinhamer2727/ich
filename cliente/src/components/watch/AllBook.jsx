@@ -15,9 +15,9 @@ const leidos = require('../../Leidos.json')
 const AllBook = () => {
     const ID = useParams()
     let data
-    if (ID.ultimas_publicaciones === "ultimas-publicaciones") { data = leidos }
-    else if (ID.ultimas_publicaciones === "libros-recomendados") { data = data2 }
-    else if (ID.ultimas_publicaciones === "libros-mas-leidos") { data = data1 }
+    if (ID.ultimas_publicaciones === "ultimas_publicaciones") { data = leidos }
+    else if (ID.ultimas_publicaciones === "libros_recomendados") { data = data2 }
+    else if (ID.ultimas_publicaciones === "libros_mas_leidos") { data = data1 }
     console.log(data)
 
 

@@ -27,7 +27,7 @@ const SamplePrevArrow = (props) => {
     );
 };
 
-const Upcomming = ({ items, title }) => {
+const Upcomming = ({ items, title,link }) => {
     const settings = {
         dots: false,
         infinite: true,
@@ -46,13 +46,14 @@ const Upcomming = ({ items, title }) => {
             },
         ],
     };
+
     return (
         <>
             <section className="upcome">
                 <div className="container">
                     <div className="heading flexSB">
                         <h1>{title}</h1>
-                        <Link to="/">View All</Link>
+                        <a href={'/'+link}>View All</a>
                     </div>
                     <div className="content">
                         <Slider {...settings}>

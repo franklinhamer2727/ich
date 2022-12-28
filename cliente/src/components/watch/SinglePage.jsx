@@ -8,6 +8,7 @@ const leidos = require('../../2011.json')
 const allbook = require('../../2011.json')
 const SinglePage = () => {
   const ID = useParams()
+  console.log(ID)
 
   const [item, setItem] = useState(null)
 
@@ -34,7 +35,7 @@ const SinglePage = () => {
 
 
                 <div className='imagen'>
-                  <a href={`/singlepage/${item.ID}/book`}>
+                  <a href={`/singlepage/book/${item.ID}`}>
                   <img src={item.cover}  sizes="(max-width: 320px) 280px,(max-width: 480px) 440px,800px"/>
                   </a>
 
