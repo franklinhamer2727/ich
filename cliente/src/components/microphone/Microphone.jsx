@@ -1,6 +1,6 @@
 import { useSpeechContext } from "@speechly/react-client";
 
-import {render,fireEvent,screen} from '@testing-library/react';
+import { render, fireEvent, screen } from "@testing-library/react";
 import Iframe from "../watch/Iframe";
 
 const Microphone = () => {
@@ -22,17 +22,43 @@ const Microphone = () => {
         }
 
         if (listaPalabras.includes("go")) {
+            if (listaPalabras.includes("end")) {
+                document.location.href = "ultimas_publicaciones";
+            }
+        }
+
+        if (listaPalabras.includes("go")) {
+            if (listaPalabras.includes("new")) {
+                document.location.href = "libros_mas_leidos";
+            }
+        }
+
+        if (listaPalabras.includes("go")) {
+            if (listaPalabras.includes("three")) {
+                document.location.href = "libros_recomendados";
+            }
+        }
+
+        if (listaPalabras.includes("go")) {
+            if (listaPalabras.includes("contact")) {
+                document.location.href = "contacto";
+            }
+        }
+
+        if (listaPalabras.includes("go")) {
             if (listaPalabras.includes("down")) {
                 if (flag_go_down) {
-                    test(()=>{
-                        const {getByTestId} = render(<Iframe/>);
-                        const element = getByTestId('mielemento');
-                        fireEvent.keyDown(element,{
-                            key:'s',
-                            shiftKey:true
+                    test(() => {
+                        const { getByTestId } = render(<Iframe />);
+                        const element = getByTestId("mielemento");
+                        fireEvent.keyDown(element, {
+                            key: "s",
+                            shiftKey: true,
                         });
                     });
                 }
+
+                flag_go_down = false;
             }
         }
 

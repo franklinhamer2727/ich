@@ -33,15 +33,20 @@ const HandsCapture = () => {
 
         if (results.multiHandLandmarks) {
             for (const landmarks of results.multiHandLandmarks) {
-                console.log(landmarks[0]);
-
                 const center_point = landmarks[0];
 
-                if (center_point >= 0.5) {
+                console.log("INICIO");
+                console.log(center_point.x);
+
+                if (center_point.x >= 0.5) {
+                    console.log("Izquierda");
                     document.querySelector(".fa-chevron-left").click();
                 } else {
+                    console.log("Derecha");
                     document.querySelector(".fa-chevron-right").click();
                 }
+
+                console.log("FIN");
 
                 drawConnectors(canvasCtx, landmarks, hands.HAND_CONNECTIONS, {
                     color: "#00FF00",
