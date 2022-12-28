@@ -12,7 +12,6 @@ const HandsCapture = () => {
     var camera = null;
 
     function onResults(results) {
-        // const video = webcamRef.current.video;
         const videoWidth = webcamRef.current.video.videoWidth;
         const videoHeight = webcamRef.current.video.videoHeight;
 
@@ -31,8 +30,19 @@ const HandsCapture = () => {
             canvasElement.width,
             canvasElement.height
         );
+
         if (results.multiHandLandmarks) {
             for (const landmarks of results.multiHandLandmarks) {
+                console.log(landmarks[0]);
+
+                const center_point = landmarks[0];
+
+                if (center_point >= 0.5) {
+                    document.querySelector(".fa-chevron-left").click();
+                } else {
+                    document.querySelector(".fa-chevron-right").click();
+                }
+
                 drawConnectors(canvasCtx, landmarks, hands.HAND_CONNECTIONS, {
                     color: "#00FF00",
                     lineWidth: 5,
@@ -43,25 +53,16 @@ const HandsCapture = () => {
                 });
             }
         }
+
         canvasCtx.restore();
     }
-    // }
 
-    // setInterval(())
     useEffect(() => {
         const hands = new Hands({
             locateFile: (file) => {
                 return `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`;
             },
         });
-
-        // faceMesh.setOptions({
-        //     maxNumFaces: 1,
-        //     minDetectionConfidence: 0.5,
-        //     minTrackingConfidence: 0.5,
-        // });
-
-        // faceMesh.onResults(onResults);
 
         hands.setOptions({
             maxNumHands: 2,
@@ -87,7 +88,7 @@ const HandsCapture = () => {
     }, []);
     return (
         <center>
-            <div className="App">
+            <div>
                 <Webcam
                     ref={webcamRef}
                     style={{
@@ -100,6 +101,7 @@ const HandsCapture = () => {
                         zindex: 9,
                         width: 640,
                         height: 480,
+                        visibility: "hidden",
                     }}
                 />{" "}
                 <canvas
@@ -115,6 +117,7 @@ const HandsCapture = () => {
                         zindex: 9,
                         width: 640,
                         height: 480,
+                        visibility: "hidden",
                     }}
                 ></canvas>
             </div>
