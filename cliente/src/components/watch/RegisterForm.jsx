@@ -1,7 +1,16 @@
 import React, {useState} from 'react';
 import axios from 'axios';
+import { useParams } from 'react-router-dom';
 
-const RegisterForm=()=>{
+
+
+
+const RegisterForm =()=>{
+
+
+    const ruta = useParams()
+    console.log(ruta)
+    const [item, setItem] = useState(null);
     //Creamos un estado para alamacenar los datos del formulario
     const[formData, setFormData] = useState({
         nombre:'',
@@ -35,6 +44,9 @@ const RegisterForm=()=>{
 
     }
     return (
+        <>
+
+        <div>
         <form onSubmit={handleSubmit}>
             <label >
                 Nombre
@@ -62,7 +74,13 @@ const RegisterForm=()=>{
             <br />
             <button type ="submit">Registrarse</button>
         </form>
-    );
+
+
+        </div>
+
+        </>
+
+    )
 }
 
 export default RegisterForm

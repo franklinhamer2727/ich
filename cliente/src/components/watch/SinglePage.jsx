@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import "./style.css"
 import { useParams } from "react-router-dom"
-import { homeData, recommended } from "../../dummyData"
+import { recommended } from "../../dummyData"
 import Upcomming from "../upcoming/Upcomming"
 const leidos = require('../../2011.json')
 
@@ -20,7 +20,7 @@ const SinglePage = () => {
       setItem(item)
     }
   }, [ID])
-  const [rec, setRec] = useState(recommended)
+  
 
   return (
     <>

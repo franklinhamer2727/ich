@@ -46,7 +46,7 @@ const Header = () => {
                     <div className="account flexSB">
                     
                         <a href="/login"><i className="fas fa-user"></i></a>
-                        <a href="/registrar">Registrarse</a>
+                        <a href="http://localhost:3002/registrar">Registrarse</a>
                         
                     </div>
                 </div>
