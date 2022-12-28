@@ -25,6 +25,18 @@ const Microphone = () => {
                 }
             }
         }
+
+        if (listaPalabras.includes("go")) {
+            if (listaPalabras.includes("next")) {
+                document.querySelector(".fa-chevron-right").click();
+            }
+        }
+
+        if (listaPalabras.includes("go")) {
+            if (listaPalabras.includes("previous")) {
+                document.querySelector(".fa-chevron-left").click();
+            }
+        }
     }
 
     return (
