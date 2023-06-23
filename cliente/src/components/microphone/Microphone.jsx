@@ -11,6 +11,7 @@ const Microphone = () => {
     let flag_go_down = true;
 
     if (typeof segment != "undefined") {
+        console.log(segment.words);
         listaPalabras = segment.words.map((w) => w.value);
 
         console.log(listaPalabras);

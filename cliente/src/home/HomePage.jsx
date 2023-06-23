@@ -3,7 +3,7 @@ import Homes from "../components/homes/Homes";
 
 import Upcomming from "../components/upcoming/Upcomming";
 import Microphone from "../components/microphone/Microphone";
-import HandsCapture from "../components/handscapture/HandsCapture";
+// import HandsCapture from "../components/handscapture/HandsCapture";
 
 import "./style.css";
 
@@ -15,7 +15,7 @@ const HomePage = () => {
     return (
         <>
             <Homes />
-            <HandsCapture />
+            {/* <HandsCapture /> */}
             <Microphone />
             <Upcomming
                 items={libros_mas_leidos}
